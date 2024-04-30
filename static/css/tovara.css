@@ -1,0 +1,730 @@
+.header{
+    position: relative;
+    z-index: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    left: 1.88%;
+    right: 92.76%;
+    top: 21.25%;
+    bottom: 20%;
+}
+.nomer{
+    position: absolute;
+    left: 9.38%;
+    right: 75.32%;
+    top: 0;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.novi{
+    position: absolute;
+    left: 9.38%;
+    right: 85.89%;
+    top: 40.25%;
+    bottom: 27.5%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+.pastga{
+    position: absolute;
+    left: 14.48%;
+    right: 85.05%;
+    top: 61.25%;
+    bottom: 33.12%;
+}
+.katalog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 20.16%;
+    right: 70.51%;
+    top: 21.25%;
+    bottom: 20%;
+    border: 2px solid #99FE00;
+}
+.chiziq1{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 30.68%;
+    bottom: 55.32%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.chiziq2{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 50.45%;
+    bottom: 42.55%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.catalog{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    text-decoration: none;
+}
+.iskat{
+    box-sizing: border-box;
+    position: absolute;
+    width: 469px;
+    height: 47px;
+    left: 40%;
+    top: 17px;
+    border-bottom: 2px solid rgba(153, 254, 0, 0.5);
+}
+.obrujena{
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    left: 0px;
+    top: 2px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    width: 25px;
+    height: 17.87px;
+    left: 444px;
+    top: 13px;
+}
+.tusiq{
+    position: absolute;
+    left: 70.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.hitech{
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 72%;
+    top: 5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.uchburche{
+    position: absolute;
+    width: 9px;
+    height: 4.5px;
+    left: 77%;
+    top: 38.25px;
+}
+.tusiq2{
+    position: absolute;
+    left: 78.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.kontank{
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 80%;
+    top: 5.5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.tusiq3{
+    position: absolute;
+    left: 86.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.korzina{
+    position: absolute;
+    left: 88.11%;
+    right: 37.52%;
+    top: 30%;
+    bottom: 35%;
+}
+.tusiq4{
+    position: absolute;
+    left: 90.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.person{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 1745px;
+    top: 0px;
+}
+/*HEADER TUGADI*/
+/*FOOTER*/
+.suka{
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 1200px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1620px;
+    height: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+}
+.fut1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.fut1 h2{
+    color: #999;
+}
+.fut1 h1{
+    color: #fff;
+}
+.fut2 h2{
+    color: #999;
+}
+.fut2 h1{
+    color: #fff;
+}
+.fut3 h2{
+    color: #999;
+}
+.fut3 h1{
+    color: #fff;
+}
+.fut4 h2{
+    color: #999;
+}
+.fut4 h1{
+    color: #fff;
+}
+.fut5 h2{
+    color: #999;
+}
+.fut5 h1{
+    color: #fff;
+}
+.menu9{
+    margin-top: 600px;
+    margin-left: -8px;
+    width: 1920px;
+    height: 250px;
+    background-color: #99FE00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yozuv{
+    width: 627px;
+    height: 73px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.gmail input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    width: 440px;
+    height: 62px;
+
+    border: 4px solid #000000;
+}
+.gmail button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 310px;
+    height: 61px;
+    margin-left: 438px;
+    margin-top: -61px;
+    background: #000;
+    border: 4px solid #000000;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.gmail button:hover{
+    background-color: #99FE00;
+    color: black;
+}
+.home{
+    left: 0;
+    position: absolute;
+    width: 1920px;
+    height: 1000px;
+    background-image: url(../images/image119.png);
+    background-size: cover ;
+}
+.soz{
+    position: absolute;
+    width: 1200px;
+    height: 288px;
+    left: 140px;
+    top: 100px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96%;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.soz2{
+    position: absolute;
+    width: 1200px;
+    height: 288px;
+    top: -80px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.glavniya{
+    position: absolute;
+    left: 0;
+    top: 1000px;
+    display: flex;
+    width: 1920px;
+    height: 1000px;
+    background-color: white;
+}
+.sozla{
+    margin-top: -800px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.glavni{
+    width: 100px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.tosiq{
+    width: 0px;
+    height: 17px;
+    border: 1px solid #888888;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pravki{
+    width: 300px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.rosiya{
+    width: 1273px;
+    height: 96px;
+    margin-left: -400px;
+    margin-top: 168px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.malum p{
+    width: 816px;
+    height: 268px;
+    margin-left: -1280px;
+    margin-top: 328px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.malum h1{
+    margin-left: -1280px;
+    margin-top: 28px;
+    width: 470px;
+    height: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.praekt{
+    height: 800px;
+    width: 1920px;
+    left: 0;
+    position: absolute;
+    top: 1800px;
+    background-color: white;
+}
+.proekt{
+    width: 1366px;
+    height: 96px;
+    margin-left: 140px;
+    margin-top: 60px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.rasmla{
+    margin-top: 30px;
+    display: flex;
+}
+.rasm{
+    margin-left: 50px;
+    width: 880px;
+    height: 520px;
+    background-image: url("../images/image120.png");
+}
+.rasm1{
+    margin-left: 50px;
+    width: 880px;
+    height: 520px;
+    background-image: url("../images/image60.png");
+}
+.rasm1 h1,.rasm h1{
+    width: 881px;
+    height: 50px;
+    margin-left: 29px;
+    margin-top: 441px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rasm1:hover h1,.rasm:hover h1{
+    color: #99FE00;
+}
+.novosti{
+    background-color: #fff;
+    width: 1920px;
+    height: 1000px;
+    position: absolute;
+    top: 2600px;
+}
+.nowosti{
+    width: 1641px;
+    height: 96px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.qator1{
+    margin-top: 20px;
+    display: flex;
+}
+.rasmcha1{
+    margin-left: 100px;
+    width: 539px;
+    height: 320px;
+    background-image: url("../images/image69.png");
+}
+.rasmcha2{
+    margin-left: 50px;
+    width: 539px;
+    height: 320px;
+    background-image: url("../images/image66.png");
+}
+.rasmcha3{
+    margin-left: 50px;
+    width: 539px;
+    height: 320px;
+    background-image: url("../images/image67.png");
+}
+.rasmcha1 a{
+    text-decoration: none;
+    width: 760px;
+    height: 104px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rasmcha2 a{
+    text-decoration: none;
+    width: 760px;
+    height: 104px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rasmcha3 a{
+    text-decoration: none;
+    width: 760px;
+    height: 104px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rasmcha1 h1,.rasmcha2 h1,.rasmcha3 h1{
+    width: 460px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 160px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rasmcha1:hover a,.rasmcha2:hover a,.rasmcha3:hover a,.rasmcha1:hover h1,.rasmcha2:hover h1,.rasmcha3:hover h1{
+    color: #99FE00;
+}
+.storki{
+    width: 1920px;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    top: 3500px;
+    background-color: white;
+}
+.storka{
+    width: 1641px;
+    height: 96px;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.opoqila{
+    display: flex;
+}
+.opoqi{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 140px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 797px;
+    height: 392px;
+    border: 4px solid #222222;
+}
+.opoqi1{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 1000px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 797px;
+    height: 392px;
+    border: 4px solid #222222;
+}
+.opoqirasm{
+    margin-left: -4px;
+    margin-top: -4px;
+    width: 296px;
+    height: 392px;
+    background-image: url("../images/image84.png");
+}
+.vkorzina{
+    margin-left: 83px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 333px;
+    height: 70px;
+    background: #99FE00;
+    border: 4px solid #99FE00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina a{
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina:hover{
+    color: #99FE00;
+    background-color: #fff;
+}
+.petorva,.petnomer,.petgmail{
+    margin-top: 20px;
+    width: 345px;
+    height: 52px;
+    margin-left: 20px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.opoqitex{
+    width: 421px;
+    height: 48px;
+    margin-left: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #141414;
+}

@@ -1,0 +1,73 @@
+{% extends 'header.html' %}
+{% block css %}
+<style>
+.madalni2{
+    z-index: 1;
+    visibility: visible;
+    top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transform: scale(1.2);
+    width: 1725px;
+    height: 100vh;
+}
+.mad{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    background: rgba(0, 0, 255, 0.68);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.nom{
+    font-size: 30px;
+    color: white;
+}
+.tov{
+    background: white;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.sumbit,button{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+</style>
+{% endblock %}
+{% block content %}
+             <div class="madalni2">
+                    <form class="mad" action="{{ url_for('edite_new',id=edit) }}" method="post">
+                        <div class="nom">Yangilik nomi</div>
+                        <input class="tov" type="text" name="name" placeholder="Iltimos yangilik nomini kiriting">
+                        <div class="nom">Yangilik vohti</div>
+                        <input class="tov" type="text" name='about' placeholder="Iltimos yangilik vohtini  kiriting">
+                        <div class="nom">Yangilik malumoti</div>
+                        <input class="tov" type="text" name="prise" placeholder="Iltimos yangilik malumotini kiriting">
+                        <button class="sumbit">Sumbit</button>
+                    </form>
+                </div>
+{% endblock %}

@@ -1,0 +1,1169 @@
+.header{
+    position: relative;
+    z-index: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    left: 1.88%;
+    right: 92.76%;
+    top: 21.25%;
+    bottom: 20%;
+}
+.nomer{
+    position: absolute;
+    left: 9.38%;
+    right: 75.32%;
+    top: 0;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.novi{
+    position: absolute;
+    left: 9.38%;
+    right: 85.89%;
+    top: 40.25%;
+    bottom: 27.5%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+.pastga{
+    position: absolute;
+    left: 14.48%;
+    right: 85.05%;
+    top: 61.25%;
+    bottom: 33.12%;
+}
+.katalog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 20.16%;
+    right: 70.51%;
+    top: 21.25%;
+    bottom: 20%;
+    border: 2px solid #99FE00;
+}
+.chiziq1{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 30.68%;
+    bottom: 55.32%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.chiziq2{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 50.45%;
+    bottom: 42.55%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.catalog{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    text-decoration: none;
+}
+.iskat{
+    box-sizing: border-box;
+    position: absolute;
+    width: 469px;
+    height: 47px;
+    left: 40%;
+    top: 17px;
+    border-bottom: 2px solid rgba(153, 254, 0, 0.5);
+}
+.obrujena{
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    left: 0px;
+    top: 2px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    width: 25px;
+    height: 17.87px;
+    left: 444px;
+    top: 13px;
+}
+.tusiq{
+    position: absolute;
+    left: 70.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.hitech{
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 72%;
+    top: 5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.uchburche{
+    position: absolute;
+    width: 9px;
+    height: 4.5px;
+    left: 77%;
+    top: 38.25px;
+}
+.tusiq2{
+    position: absolute;
+    left: 78.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.kontank{
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 80%;
+    top: 5.5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.tusiq3{
+    position: absolute;
+    left: 86.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.korzina{
+    position: absolute;
+    left: 88.11%;
+    right: 37.52%;
+    top: 30%;
+    bottom: 35%;
+}
+.tusiq4{
+    position: absolute;
+    left: 90.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.person{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 1745px;
+    top: 0px;
+}
+/*HEADER TUGADI*/
+/*FOOTER*/
+.suka{
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 1200px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1620px;
+    height: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+}
+.fut1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.fut1 h2{
+    color: #999;
+}
+.fut1 h1{
+    color: #fff;
+}
+.fut2 h2{
+    color: #999;
+}
+.fut2 h1{
+    color: #fff;
+}
+.fut3 h2{
+    color: #999;
+}
+.fut3 h1{
+    color: #fff;
+}
+.fut4 h2{
+    color: #999;
+}
+.fut4 h1{
+    color: #fff;
+}
+.fut5 h2{
+    color: #999;
+}
+.fut5 h1{
+    color: #fff;
+}
+.menu9{
+    margin-left: -8px;
+    width: 1920px;
+    height: 250px;
+    background-color: #99FE00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yozuv{
+    width: 627px;
+    height: 73px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.gmail input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    width: 440px;
+    height: 62px;
+
+    border: 4px solid #000000;
+}
+.gmail button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 310px;
+    height: 61px;
+    margin-left: 438px;
+    margin-top: -61px;
+    background: #000;
+    border: 4px solid #000000;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.gmail button:hover{
+    background-color: #99FE00;
+    color: black;
+}
+.home{
+    background-color: white;
+    width: 1920px;
+    height: 5400px;
+}
+.matla1{
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cla{
+    width: 55px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sistem{
+    width: 300px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #888888;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.lh{
+    width: 400px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.tusu{
+    width: 0px;
+    height: 17px;
+    border: 1px solid #888888;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.tusu1{
+    width: 0px;
+    height: 17px;
+    border: 1px solid #888888;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.hl2{
+    width: 1640px;
+    height: 96px;
+    margin-left:  150px;
+    margin-top: 50px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.yulduzlar{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.obshitavar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.surati1{
+    width: 480px;
+    height: 650px;
+    margin-left: 150px;
+    margin-top: 94px;
+    background: url(../images/image83.png);
+}
+.surat2{
+    margin-left: 150px;
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divla{
+    width: 400px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gruzchik{
+    width: 300px;
+    height: 26px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.xarakter{
+    display: flex;
+}
+.xarak1{
+    width: 250px;
+    height: 125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(20, 20, 20, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.xarak2{
+    width: 171px;
+    height: 125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.vse{
+    width: 470px;
+    height: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.sotib1{
+
+    border: 4px solid #F1F1F1;
+    width: 500px;
+    height: 600px;
+}
+.sena{
+    margin-left: 30px;
+    width: 200px;
+    height: 60px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.somo{
+    margin-left: 30px;
+    width: 88px;
+    height: 26px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.iz{
+    margin-left: 30px;
+    width: 186px;
+    height: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.punkt{
+    margin-left: 30px;
+    width: 332px;
+    height: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.dostavka{
+    margin-left: 30px;
+    width: 74px;
+    height: 26px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.ss{
+    margin-left: 30px;
+    width: 186px;
+    height: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina{
+    margin-left: 83px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 333px;
+    height: 70px;
+    background: #99FE00;
+    border: 4px solid #99FE00;
+  flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina a{
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina:hover{
+    color: #99FE00;
+    background-color: #fff;
+}
+.vkup{
+    margin-top: 30px;
+    margin-left: 83px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 333px;
+    height: 70px;
+    background: #fff;
+    border: 4px solid #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkup a{
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkup:hover,.vkup:hover a{
+    color: #99FE00;
+    background-color: #000;
+}
+.sotib2{
+    margin-top: 50px;
+    border: 4px solid #F1F1F1;
+    width: 500px;
+    height: 300px;
+    background: #F1F1F1;
+}
+.vkup1{
+    margin-top: -100px;
+    margin-left: 83px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 333px;
+    height: 70px;
+    background: #fff;
+    border: 4px solid #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkup1 a{
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkup1:hover,.vkup1:hover a{
+    color: #99FE00;
+    background-color: #000;
+}
+.nujna{
+    margin-left: 83px;
+    width: 339px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mi{
+    margin-left: 83px;
+    width: 333px;
+    height: 78px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.otva{
+    margin-left: -70px;
+    width: 285px;
+    height: 56px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.xrak{
+    margin-left: -100px;
+    width: 355px;
+    height: 56px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.otziv{
+    width: 172px;
+    height: 56px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.sola1{
+    width: 1800px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dokumnet{
+    width: 249px;
+    height: 56px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.matnla2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1920px;
+    height: 466px;
+    background: #F1F1F1;
+}
+.matnla2 p{
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 916px;
+    height: 261px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+.matnla2 h1{
+    margin-left: 250px;
+    width: 470px;
+    height: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.oxirro{
+    margin-left: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 797px;
+    background: #000000;
+}
+.obzor{
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 991px;
+    height: 96px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.oxir1{
+    margin-top: 100px;
+    margin-left: -1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 812px;
+    height: 421px;
+    background-image: url("../images/image42.png");
+    filter: grayscale(0%);
+}
+.xoir2{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 812px;
+    height: 421px;
+    background-image: url("../images/image42.png");
+    filter: grayscale(0%);
+}
+.player{
+    width: 90px;
+    height: 90px;
+}
+.oxir1:hover,.xoir2:hover{
+    filter: grayscale(100%);
+}
+.popularni{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 465px;
+    height: 96px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.popla{
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pop1{
+    margin-top: 100px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+
+    width: 263px;
+    height: 62px;
+
+    /* не фирменный серый */
+
+    border: 4px solid #D0D0D0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pop1 h1{
+    margin-top: -18px;
+    width: 400px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.pop2{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+
+    width: 139px;
+    height: 62px;
+
+    /* не фирменный серый */
+
+    border: 4px solid #D0D0D0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pop2 h1{
+    margin-left: -20px;
+    margin-top: -10px;
+    width: 100px;
+    height: 30px;
+
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* 141414 */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pop3 h1{
+    /* тележки для талей */
+
+    margin-top: -17px;
+    margin-left: -10px;
+    width: 151px;
+    height: 30px;
+
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* 141414 */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pop3{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+
+    width: 231px;
+    height: 62px;
+
+    /* не фирменный серый */
+
+    border: 4px solid #D0D0D0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.qorala{
+    margin-left: -8px;
+    margin-top: 100px;
+    width: 1920px;
+    height: 600px;
+    background-color: black;
+}
+.vi1{
+    margin-left: 50px;
+    width: 857px;
+    height: 96px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.oqla{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.oq1{
+    width: 539px;
+    height: 261px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.oq2{
+    width: 539px;
+    height: 261px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.oq3{
+    width: 539px;
+    height: 261px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.qolqopla{
+    width: 200px;
+    height: 168px;
+    margin-left: 15px;
+    margin-top: 51px;
+    background: url(../images/qolqop.png);
+}
+.perchtka{
+    width: 250px;
+    height: 64px;
+    margin-left: 233px;
+    margin-top: -147px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.narxla{
+    width: 215px;
+    height: 52px;
+    margin-left: 233px;
+    margin-top: 6px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.qolqopla1{
+    width: 148px;
+    height: 182px;
+    margin-left: 15px;
+    margin-top: 51px;
+    background: url(../images/image72.png);
+    background-size: cover;
+}

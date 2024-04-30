@@ -1,0 +1,216 @@
+{% extends 'header.html' %}
+{% block css %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../static/css/katalog.css">
+{% endblock %}
+
+{% block content %}
+    <section class="ishla">
+        <div class="boshi">
+            <h1 class="kata">Каталог</h1>
+            <div class="tusula"></div>
+            <h1 class="sistema">Системы крепления грузов</h1>
+        </div>
+        <h1 class="gruz">Системы крепления грузов</h1>
+        <div class="sitem">
+            <h1 class="ajibujla">перчатки в подарок
+                При покупке ручного рычажного подъемника LH200-G</h1>
+            <img class="qolqop" src="../static/images/Без%20имени-12.png">
+        </div>
+        <div class="tavarla">
+            <div class="chap">
+                <div class="katla">
+                    <h1 class="kattex">Каталог</h1>
+                    <img class="katimg" src="../static/images/Vector33.png">
+                </div>
+
+                <div class="filter">
+                    <h1 class="filtertex">Фильтры</h1>
+                    <img class="filterimg" src="../static/images/Vector331.png">
+                </div>
+                <div class="senacha">Цена</div>
+                <div class="vector"></div>
+                <div class="ramkala">
+                    <div class="ram1">
+                        <h1 class="ramtex">563</h1>
+                    </div>
+                    <div class="ram1">
+                        <h1 class="ramtex">24 850</h1>
+                    </div>
+                </div>
+
+                <div class="gruzka">
+                    <h1 class="gruztex">Грузоподъемность, т</h1>
+                    <img class="gruzimg" src="../static/images/Vector331.png">
+                </div>
+                <div class="chekbox">
+                    <div class="chek1"><input type="checkbox">
+                        <h1>0,25</h1></div>
+                    <div class="chek2"><input type="checkbox">
+                        <h1>0,5</h1></div>
+                    <div class="chek3"><input type="checkbox">
+                        <h1>1</h1></div>
+                    <div class="chek4"><input type="checkbox">
+                        <h1>2</h1></div>
+                    <div class="chek5"><input type="checkbox">
+                        <h1>5</h1></div>
+                </div>
+                <div class="gruzka">
+                    <h1 class="gruztex">Длина, м</h1>
+                    <img class="gruzimg" src="../static/images/Vector331.png">
+                </div>
+                <div class="chekbox">
+                    <div class="chek1"><input type="checkbox">
+                        <h1>0,25</h1></div>
+                    <div class="chek2"><input type="checkbox">
+                        <h1>0,5</h1></div>
+                    <div class="chek3"><input type="checkbox">
+                        <h1>1</h1></div>
+                    <div class="chek4"><input type="checkbox">
+                        <h1>2</h1></div>
+                    <div class="chek5"><input type="checkbox">
+                        <h1>5</h1></div>
+                </div>
+                <div class="gruzka">
+                    <h1 class="gruztex">Длина, м</h1>
+                    <img class="gruzimg" src="../static/images/Vector331.png">
+                </div>
+                <div class="chekbox">
+                    <div class="chek1"><input type="checkbox">
+                        <h1>0,25</h1></div>
+                    <div class="chek2"><input type="checkbox">
+                        <h1>0,5</h1></div>
+                    <div class="chek3"><input type="checkbox">
+                        <h1>1</h1></div>
+                    <div class="chek4"><input type="checkbox">
+                        <h1>2</h1></div>
+                    <div class="chek5"><input type="checkbox">
+                        <h1>5</h1></div>
+                </div>
+                <div class="gruzka">
+                    <h1 class="gruztex">Доп. параметры</h1>
+                    <img class="gruzimg" src="../static/images/Vector33.png">
+                </div>
+                <div class="premet">
+                    <h1>Применить</h1>
+                </div>
+                <div class="sbros">
+                    <h1 class="sbrostex">Сбросить фильтры</h1>
+                    <img class="sbrosimg" src="../static/images/Vector36.png">
+                </div>
+            </div>
+            <div class="ung">
+                <div class="textla">
+                    <h1 class="smotret">Сортировать по:</h1>
+                    <h1 class="popular">Популярности</h1>
+                    <h1 class="reyting">Рейтингу</h1>
+                    <h1 class="senaa">Цене</h1>
+                    {% if user.admin %}
+                        <img class="plused" style="position: absolute ; right: 160px"
+                             src="../static/images/Frame7704.png">
+                    {% endif %}
+                </div>
+                <div class="madalni">
+                    <form class="mad" action="{{ url_for('katalog') }}" method="post">
+                        <i style="font-size: 50px;color: red; position: absolute; right: 20px ; top: 10px;"
+                           class="iks fa-solid fa-xmark"></i>
+                        <div class="nom">Tavar nomi</div>
+                        <input class="tov" type="text" name="name" placeholder="Iltimos tovar nomini kiriting">
+                        <div class="nom">Tavar Malumoti</div>
+                        <input class="tov" type="text" name='about' placeholder="Iltimos tovar malumotini kiriting">
+                        <div class="nom">Tavar narxi</div>
+                        <input class="tov" type="number" name="prise" placeholder="Iltimos tovar narxini kiriting">
+                        <div class="nom">Tavar Rasmi</div>
+                        <input class="tov" type="text" name="photo" placeholder="Iltimos tovar rasmini kiriting">
+                        <button class="sumbit">Sumbit</button>
+                    </form>
+                </div>
+
+
+
+
+                <div class="qator1">
+
+                    {% for product in katalog %}
+
+                        <div class="tavar">
+                            {% if user.admin %}
+                                <a href="{{ url_for("delete", product_id=product.id) }}">
+                                    <div class="delete"></div>
+                                </a>
+                               <a href="{{ url_for("edit", product_id=product.id) }}">
+                             <div class="edit">           </div>   </a>
+                            {% endif %}
+                            <img class="mahsul1" src="{{ product.photo }}">
+                            <h1 class="nomimah">{{ product.name }}</h1>
+                            <div class="mah2">
+                                <h1 class="mahnarx">{{ product.prise }}</h1>
+                                <a href="sranitsa.html"><img class="plus" src="../static/images/Frame7704.png"></a>
+                            </div>
+
+
+                        </div>
+                    {% endfor %}
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="oxiri">
+            <p>Поможем в выборе ремней стяжных грузовых в Новосибирске. На нашем сайте представлен широкий ассортимент
+                моделей, даны основные характеристики и подробные описания. Также есть отзывы пользователей, которые
+                помогут
+                составить полное мнение о товаре. А если вам нужна консультация, позвоните или закажите звонок с сайта.
+                Менеджер поможет определиться с выбором и оформит заказ на ремни стяжные грузовые . Вы получите товар в
+                кратчайшие сроки!</p>
+        </div>
+        <footer class="suka">
+            <div class="footer">
+
+                <div class="fut1">
+                    <img src="../static/images/icon.png">
+                    <h2>Новосибирск</h2>
+                    <h2>пн-пт 10:00 – 20:00</h2>
+                    <h1>+7 (800) 000-00-10</h1>
+                    <h1>hello@hitch.ru</h1>
+                </div>
+                <div class="fut2">
+                    <h2>Каталог</h2>
+                    <h1>Системы крепления грузов</h1>
+                    <h1> Стропы текстильнык </h1>
+                    <h1> Тали ручные рычажные </h1>
+                    <h1> Тали ручные цепные </h1>
+                    <h1> Тележки для талей </h1> Буксировочные приспособления</h1>
+                </div>
+                <div class="fut3">
+                    <h2>О Hitch</h2>
+                    <h1>Контакты</h1>
+                    <h1> Реквизиты</h1>
+                    <h1> Производство</h1>
+                    <h1> Академия HITCH</h1>
+                    <h1> Работа у нас</h1>
+                </div>
+                <div class="fut4">
+                    <h2>Покупателям</h2>
+                    <h1>Как оформить заказ</h1>
+                    <h1> Оплата и доставка </h1>
+                    <h1> Магазины</h1>
+                    <h1> Сервисные центры</h1>
+                </div>
+                <div class="fut5">
+                    <h2>Партнерам</h2>
+                    <h1 style="color: #99FE00"> Личный кабинет</h1>
+                    <h1> Оптовым клиентам</h1>
+                    <h1>Франшиза</h1>
+                </div>
+            </div>
+        </footer>
+
+    </section>
+    <script src="../static/js/script.js">
+    </script>
+{% endblock %}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <title>Title</title>
+{% block css %}
+
+{% endblock %}
+</head>
+<body><header class="header">
+    <nav>
+       <img class="icon" src="../static/images/icon.png">
+        <h1 class="nomer">8  800 600  20 20</h1>
+        <h1 class="novi">Новосибирск</h1>
+        <img class="pastga" src="../static/images/Vector%2016.png">
+        <div class="katalog">
+          <div class="chiziq1"></div>
+            <div class="chiziq2"></div>
+            <a class="catalog" href="{{ url_for("katalog") }}">Каталог</a>
+        </div>
+        <div class="iskat">
+  <input type="search" placeholder="Искать оборудование">
+            <img class="search" src="../static/images/Group%207546.png">
+        </div>
+        <div class="tusiq"></div>
+     <a  href="{{ url_for("news") }}">   <h1 class="hitech" >O hitch</h1></a>
+    <img class="uchburche" src="../static/images/yashil.png">
+        <div class="tusiq2"></div>
+        <h1 class="kontank">контакты</h1>
+        <div class="tusiq3"></div>
+     <a href="{{ url_for("korzina") }}"  > <img class="korzina" src="../static/images/korzina.png"></a>
+        <div class="tusiq4"></div>
+              <a href="{{ url_for('lich') }}">   <img src="../static/images/person.png" class="person"></a>
+        {% if user %}
+   <img class="icon" src="../static/images/icon.png">
+        <h1 class="nomer">8  800 600  20 20</h1>
+        <h1 class="novi">Новосибирск</h1>
+        <img class="pastga" src="../static/images/Vector%2016.png">
+        <div class="katalog">
+          <div class="chiziq1"></div>
+            <div class="chiziq2"></div>
+            <a class="catalog" href="{{ url_for('katalog') }}">Каталог</a>
+        </div>
+        <div class="iskat">
+  <input type="search" placeholder="Искать оборудование">
+            <img class="search" src="../static/images/Group%207546.png">
+        </div>
+        <div class="tusiq"></div>
+     <a  href="{{ url_for('news') }}">   <h1 class="hitech" >O hitch</h1></a>
+    <img class="uchburche" src="../static/images/yashil.png">
+        <div class="tusiq2"></div>
+        <h1 class="kontank">контакты</h1>
+        <div class="tusiq3"></div>
+     <a href="{{ url_for('korzina') }}"  > <img class="korzina" src="../static/images/korzina.png"></a>
+        <div class="tusiq4"></div>
+              <a href="{{ url_for('profile') }}">   <img src="../static/images/person.png" class="person"></a>
+        {% endif %}
+
+    </nav>
+</header>
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>

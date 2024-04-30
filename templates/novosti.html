@@ -1,0 +1,133 @@
+{% extends 'header.html' %}
+{% block css %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../static/css/novosti.css">
+{% endblock %}
+
+{% block content %}
+
+
+    <section class="home">
+        <div class="matla1">
+            <h1 class="cla">Главная</h1>
+            <div class="tusu"></div>
+            <h1 class="lh">Блог/Новости</h1>
+        </div>
+        <div class="hl2">Проекты</div>
+        <div class="sola1">
+            <h1 class="otva">Все проекты</h1>
+            <h1 class="xrak">иновационные технологии</h1>
+            <h1 class="otziv">гарантия и сервис</h1>
+            <h1 class="dokumnet">академия HITCH</h1>
+        </div>
+        <section class="praekt">
+            <div class="rasmla">
+                <div class="rasm1"><h1>Автоматизация ооо «Детрогаз»</h1></div>
+                <div class="rasm"><h1>Автоматизация ооо «Детрогаз»</h1></div>
+            </div>
+            <div class="rasmla">
+                <div class="rasm1"><h1>Автоматизация ооо «Детрогаз»</h1></div>
+                <div class="rasm"><h1>Автоматизация ооо «Детрогаз»</h1></div>
+            </div>
+        </section>
+        <section class="novosti">
+            <h1 class="nowosti">Новости и статьи</h1>
+            <div class="kunlari">
+                {% if user.admin %}
+                    <img class="plused" style="position: absolute ; right: 160px" src="../static/images/Frame7704.png">
+                    </div>
+                {% endif %}
+
+
+            <div class="qator1" style="margin-top: 50px;">
+                {% for news in news %}
+                    <div class="rasmcha1">
+                        {% if user.admin %}
+                            <a href="{{ url_for("edit_new", news_id=news.id) }}">
+                                <div class="edit"></div>
+                            </a>
+                            <a href="{{ url_for("deletes", product_id=news.id) }}">
+                                <div class="delete"></div>
+                            </a>
+                        {% endif %}
+                        <a href="novosti.html">{{ news.news_name }}</a>
+                        <h1>{{ news.news_data }}</h1>
+                    </div>
+                {% endfor %}
+
+            </div>
+            <div class="madalni">
+                <form class="mad" action="{{ url_for('news') }}" method="post">
+                    <div style="font-size: 40px">Create new news</div>
+                    <i style="font-size: 50px;color: red; position: absolute; right: 20px ; top: 30px; z-index: 1"
+                       class="iks fa-solid fa-xmark"></i>
+                    <input style="color: red" class="new" type="text" placeholder="Enter news name" name="name">
+                    <input style="color: red" class="new" type="text" placeholder="Enter news" name="text">
+                    <button class="sumbit">Sumbit</button>
+                </form>
+            </div>
+        </section>
+        <div class="malum">
+            <p>Компания Hitchlifting Inc.(Texas, US) разрабатывает и производит прочное и безопасное промышленное
+                оборудование для подъема грузов, в том числе для самых суровых условий. Функциональность по честной цене
+                — наш базовый принцип. Привносим на рынок совершенно новые стандарты сервиса, экспертности, скорости и
+                ассортимента и занимаем лидирующие позиции по поставке грузоподъемного оборудования в России.
+                <br>Основателем направления стала компания Total Oilfield Equipment, LLC. В процессе снабжения
+                инструментами сферы нефтедобывающей промышленности стало очевидно, что существует большой спрос на
+                подъемные механизмы. Это сопутствующее оборудование, которое потребителям было бы удобно закупать у
+                одного поставщика вместе с другими инструментами. Работая в отрасли промышленного оборудования, компания
+                Total Oilfield Equipment, LLC...</p>
+            <h1>Читать полностью</h1>
+        </div>
+        <div class="menu9">
+            <h1 class="yozuv">Узнавайте о скидках первыми</h1>
+            <div class="gmail">
+                <input type="email" placeholder="Email">
+                <button>подписаться</button>
+            </div>
+        </div>
+        <footer class="suka">
+            <div class="footer">
+                <div class="fut1">
+                    <img src="../static/images/icon.png">
+                    <h2>Новосибирск</h2>
+                    <h2>пн-пт 10:00 – 20:00</h2>
+                    <h1>+7 (800) 000-00-10</h1>
+                    <h1>hello@hitch.ru</h1>
+                </div>
+                <div class="fut2">
+                    <h2>Каталог</h2>
+                    <h1>Системы крепления грузов</h1>
+                    <h1> Стропы текстильнык </h1>
+                    <h1> Тали ручные рычажные </h1>
+                    <h1> Тали ручные цепные </h1>
+                    <h1> Тележки для талей </h1> Буксировочные приспособления</h1>
+                </div>
+                <div class="fut3">
+                    <h2>О Hitch</h2>
+                    <h1>Контакты</h1>
+                    <h1> Реквизиты</h1>
+                    <h1> Производство</h1>
+                    <h1> Академия HITCH</h1>
+                    <h1> Работа у нас</h1>
+                </div>
+                <div class="fut4">
+                    <h2>Покупателям</h2>
+                    <h1>Как оформить заказ</h1>
+                    <h1> Оплата и доставка </h1>
+                    <h1> Магазины</h1>
+                    <h1> Сервисные центры</h1>
+                </div>
+                <div class="fut5">
+                    <h2>Партнерам</h2>
+                    <h1 style="color: #99FE00"> Личный кабинет</h1>
+                    <h1> Оптовым клиентам</h1>
+                    <h1>Франшиза</h1>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="../static/js/novosti.js"></script>
+{% endblock %}

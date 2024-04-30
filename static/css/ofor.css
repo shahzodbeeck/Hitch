@@ -1,0 +1,738 @@
+.header{
+    position: relative;
+    z-index: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    left: 1.88%;
+    right: 92.76%;
+    top: 21.25%;
+    bottom: 20%;
+}
+.nomer{
+    position: absolute;
+    left: 9.38%;
+    right: 75.32%;
+    top: 0;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.novi{
+    position: absolute;
+    left: 9.38%;
+    right: 85.89%;
+    top: 40.25%;
+    bottom: 27.5%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+.pastga{
+    position: absolute;
+    left: 14.48%;
+    right: 85.05%;
+    top: 61.25%;
+    bottom: 33.12%;
+}
+.katalog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 20.16%;
+    right: 70.51%;
+    top: 21.25%;
+    bottom: 20%;
+    border: 2px solid #99FE00;
+}
+.chiziq1{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 30.68%;
+    bottom: 55.32%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.chiziq2{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 50.45%;
+    bottom: 42.55%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.catalog{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    text-decoration: none;
+}
+.iskat{
+    box-sizing: border-box;
+    position: absolute;
+    width: 469px;
+    height: 47px;
+    left: 40%;
+    top: 17px;
+    border-bottom: 2px solid rgba(153, 254, 0, 0.5);
+}
+.obrujena{
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    left: 0px;
+    top: 2px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    width: 25px;
+    height: 17.87px;
+    left: 444px;
+    top: 13px;
+}
+.tusiq{
+    position: absolute;
+    left: 70.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.hitech{
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 72%;
+    top: 5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.uchburche{
+    position: absolute;
+    width: 9px;
+    height: 4.5px;
+    left: 77%;
+    top: 38.25px;
+}
+.tusiq2{
+    position: absolute;
+    left: 78.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.kontank{
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 80%;
+    top: 5.5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.tusiq3{
+    position: absolute;
+    left: 86.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.korzina{
+    position: absolute;
+    left: 88.11%;
+    right: 37.52%;
+    top: 30%;
+    bottom: 35%;
+}
+.tusiq4{
+    position: absolute;
+    left: 90.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.person{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 1745px;
+    top: 0px;
+}
+/*HEADER TUGADI*/
+/*FOOTER*/
+.suka{
+    position: absolute;
+    left: 0 ;
+    top: 2200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 1200px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1620px;
+    height: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+}
+.fut1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.fut1 h2{
+    color: #999;
+}
+.fut1 h1{
+    color: #fff;
+}
+.fut2 h2{
+    color: #999;
+}
+.fut2 h1{
+    color: #fff;
+}
+.fut3 h2{
+    color: #999;
+}
+.fut3 h1{
+    color: #fff;
+}
+.fut4 h2{
+    color: #999;
+}
+.fut4 h1{
+    color: #fff;
+}
+.fut5 h2{
+    color: #999;
+}
+.fut5 h1{
+    color: #fff;
+}
+.menu9{
+    position: absolute;
+    left: 0;
+    top: 2000px;
+    width: 1920px;
+    height: 250px;
+    background-color: #99FE00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yozuv{
+    width: 627px;
+    height: 73px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.gmail input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    width: 440px;
+    height: 62px;
+
+    border: 4px solid #000000;
+}
+.gmail button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 310px;
+    height: 61px;
+    margin-left: 438px;
+    margin-top: -61px;
+    background: #000;
+    border: 4px solid #000000;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.gmail button:hover{
+    background-color: #99FE00;
+    color: black;
+}
+.home{
+    background-color: white;
+    width: 1920px;
+    height: 5400px;
+}
+.matla1{
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cla{
+    width: 55px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.lh{
+    width: 400px;
+    height: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.tusu{
+    width: 0px;
+    height: 17px;
+    border: 1px solid #888888;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.hl2{
+    width: 1640px;
+    height: 96px;
+    margin-left:  150px;
+    margin-top: 50px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.chap{
+    margin-left: 150px;
+}
+.qora{ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 980px;
+    height: 151px;
+    background: #1E1E1E;
+}
+.qora p{
+    margin-top: 30px;
+    margin-left: 102px;
+    width: 856px;
+    height: 77px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.chap input {
+    height: 50px;
+    margin-top: 50px;
+    width: 980px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #888888;
+}
+input:focus{
+    outline: none !important;
+    border-bottom: 2px solid #888888;
+}
+::placeholder {
+    color: #99FE00;
+    font-size: 30px;
+}
+.karta{
+    display: flex;
+}
+.karta input{
+    height: 50px;
+    margin-top: 50px;
+    width: 263px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #888888;
+}
+.vkorzina{
+    margin: 25px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 300px;
+    height: 70px;
+    background: #99FE00;
+    border: 4px solid #99FE00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina a{
+    text-decoration: none;
+    width: 300px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina:hover{
+    color: #99FE00;
+    background-color: #fff;
+}
+.vkorzina1{
+    margin-top: 25px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 300px;
+    height: 70px;
+    border: 4px solid #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina1 a{
+    text-decoration: none;
+    width: 300px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina1:hover ,.vkorzina1:hover a{
+    color: #99FE00;
+    background-color: #888888;
+}
+.tasdiq{
+    display: flex;
+}
+.tasrasm{
+    margin-top: 10px;
+    width: 39.9px;
+    height: 40px;
+    background-image: url("../images/yashil2.png");
+}
+.tasdiq h1{
+    margin-left: 30px;
+    width: 913px;
+    height: 32px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.tasdiq span{
+    color: #99FE00;
+}
+.vkorzina3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 300px;
+    height: 70px;
+    background: #99FE00;
+    border: 4px solid #99FE00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina3 a{
+    text-decoration: none;
+    width: 300px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina3:hover{
+    color: #99FE00;
+    background-color: #fff;
+}
+.ohiir{
+
+}
+.ohiir p{
+    width: 980px;
+    height: 241px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.ohiir h1{
+    width: 153px;
+    height: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.ong{
+    margin-top: -1430px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 577px;
+    height: 258px;
+    margin-left: 1101px;
+    border: 4px solid #888888;
+}
+.tab1{
+    display: flex;
+}
+.hammatvar{
+    display: flex;
+}
+.summabar{
+    display: flex;
+}
+.vkorzina4{
+    margin-top: 10px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 280px;
+    height: 70px;
+    background: #99FE00;
+    border: 4px solid #99FE00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina4 a{
+    text-decoration: none;
+    width: 280px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vkorzina4:hover{
+    color: #99FE00;
+    background-color: #fff;
+}
+.tab1 h1{
+    margin-left: 20px;
+    width: 200px;
+    height: 32px;
+
+    /* 375/Title_2_Gubia Black_32 */
+
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.hammatvar h1{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 300px;
+    height: 32px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hammatvar h2{
+    margin-left: 180px;
+    width: 37px;
+    height: 32px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.summabar h1{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 200px;
+    height: 32px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.summabar h2{
+    margin-left: 250px;
+    width: 200px;
+    height: 32px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}

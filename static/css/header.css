@@ -1,0 +1,240 @@
+.header{
+    position: relative;
+    z-index: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    left: 1.88%;
+    right: 92.76%;
+    top: 21.25%;
+    bottom: 20%;
+}
+.nomer{
+    position: absolute;
+    left: 9.38%;
+    right: 75.32%;
+    top: 0;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.novi{
+    position: absolute;
+    left: 9.38%;
+    right: 85.89%;
+    top: 40.25%;
+    bottom: 27.5%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+.pastga{
+    position: absolute;
+    left: 14.48%;
+    right: 85.05%;
+    top: 61.25%;
+    bottom: 33.12%;
+}
+.katalog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 20.16%;
+    right: 70.51%;
+    top: 21.25%;
+    bottom: 20%;
+    border: 2px solid #99FE00;
+}
+.chiziq1{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 30.68%;
+    bottom: 55.32%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.chiziq2{
+    position: absolute;
+    left: 17.5%;
+    right: 68.12%;
+    top: 50.45%;
+    bottom: 42.55%;
+    background: #99FE00;
+    border: 3px solid #99FE00;
+}
+.catalog{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    text-decoration: none;
+}
+.iskat{
+    box-sizing: border-box;
+    position: absolute;
+    width: 469px;
+    height: 47px;
+    left: 40%;
+    top: 17px;
+
+}
+input{
+    font-size: 16px;
+    color: #99FE00;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.5;
+    border: none;
+    width: 469px;
+    outline: none !important;
+    border-bottom: 2px solid #99FE00;
+
+}
+input:focus{
+    opacity: 0.5;
+    width: 469px;
+    outline: none !important;
+    border-bottom: 2px solid #99FE00;
+}
+::placeholder {
+    opacity: 0.5;
+    color: #99FE00;
+    font-size: 16px;
+}
+.obrujena{
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    left: 0px;
+    top: 2px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #99FE00;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    width: 25px;
+    height: 17.87px;
+    left: 444px;
+    top: 13px;
+}
+.tusiq{
+    position: absolute;
+    left: 70.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.hitech{
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 72%;
+    top: 5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.uchburche{
+    position: absolute;
+    width: 9px;
+    height: 4.5px;
+    left: 77%;
+    top: 38.25px;
+}
+.tusiq2{
+    position: absolute;
+    left: 78.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.kontank{
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 80%;
+    top: 5.5px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #99FE00;
+}
+.tusiq3{
+    position: absolute;
+    left: 86.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.korzina{
+    position: absolute;
+    left: 88.11%;
+    right: 37.52%;
+    top: 30%;
+    bottom: 35%;
+}
+.tusiq4{
+    position: absolute;
+    left: 90.94%;
+    right: 29.06%;
+    top: 0%;
+    bottom: -1.25%;
+    opacity: 0.25;
+    border: 1px solid #99FE00;
+}
+.person{
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 1745px;
+    top: 0px;
+}

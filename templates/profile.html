@@ -1,0 +1,166 @@
+{% extends 'header.html' %}
+{% block css %}
+    <style>
+        body {
+            position: relative;
+        }
+
+        .petorva, .petnomer, .petgmail {
+            width: 200px;
+            height: 52px;
+            font-family: 'Gubia';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 52px;
+            text-transform: uppercase;
+            color: #141414;
+        }
+
+        .opoqitex p {
+            margin-left: 70px;
+        }
+
+        .opoqitex {
+            position: absolute;
+            top: 70px;
+            right: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            width: 350px;
+            height: 200px;
+            margin-left: 20px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 15px;
+            color: #141414;
+        }
+
+        .opoqi {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            right: 50px;
+            margin-top: 100px;
+            margin-left: 140px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 600px;
+            height: 624px;
+            border: 4px solid #222222;
+        }
+
+        .akkunt {
+            left: 17px;
+            position: absolute;
+            top: -10px;
+        }
+
+        .opoqirasm {
+            position: absolute;
+            right: 400px;
+            top: 50px;
+            width: 180.24px;
+            height: 300px;
+            /*background-image: url("../images/image84.png");*/
+            object-fit: cover;
+        }
+        .vkorzinaq a{
+    text-decoration: none;
+    width: 400px;
+    height: 30px;
+    font-family: 'Gubia';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+        .vkorzinaq{
+    margin-top: 300px;
+    margin-left: -150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 10px;
+    width: 400px;
+    height: 70px;
+    border: 4px solid #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+        .nputs{
+            left: 50px;
+            box-shadow: 0 0 5px 1px aqua;
+            margin-top: 100px;
+            position: absolute;
+            width: 500px;
+            height: 600px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            color: red;
+            font-size: 20px;
+            opacity: 1;
+        }
+        button{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            background: #00ff11;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+
+<form class="nputs" action="{{ url_for('profile')}}" method="post" >
+        <input type="text" name="nomer" placeholder="Телефон">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="gmail" placeholder="E-mail">
+        <input type="text" name="password" placeholder="Пароль">
+      <div class="button">
+            <button class="vkorzina3">
+                <h1>Edit</h1>
+            </button>
+        </div>
+    </form>
+    <div class="opoqi">
+        <i class="pen fa-sharp fa-solid fa-pen"></i>
+        <h1 class="akkunt">Аккаунт менеджер</h1>
+        <div class="opoqi2">
+            <img class="opoqirasm" src="{{ user.photo }}">
+            <div class="opoqitex">
+                <div class="petorva">{{ user.name }}</div>
+                <div class="petnomer">{{ user.number }}</div>
+                <div class="petgmail">{{ user.gmail }}</div>
+                <p>Специалист по поддержке клиентов
+                    Напрвление сила знаний</p>
+
+            </div>
+            <div class="vkorzinaq">
+                <a href="{{ url_for("logout") }}">LOG OUT</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
